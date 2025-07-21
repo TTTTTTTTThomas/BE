@@ -16,7 +16,7 @@ COPY . .
 # Run code quality checks
 RUN npm run prettier
 RUN npm run lint
-RUN npm test -- --watchAll=false
+RUN npm test -- --run
 
 # Build the application
 RUN npm run build
