@@ -28,9 +28,9 @@ This is a React component library project with TypeScript, built using Vite. The
 
 ## Naming Conventions
 
-- Container: `lastName_firstName_coding_assignment13`
-- Working directory: `lastName_firstName_ui_garden_build_checks`
-- Package: `lastname-firstname-ui-garden-build-checks`
+- Container: `guangxin_dai_coding_assignment13`
+- Working directory: `guangxin_dai_ui_garden_build_checks`
+- Package: `guangxin-dai-ui-garden-build-checks`
 
 ## Available Scripts
 

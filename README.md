@@ -32,10 +32,10 @@ Development server will start at `http://localhost:8018`
 
 ```bash
 # 1. Build Docker image
-docker build -t lastname_firstname_coding_assignment13 .
+docker build -t guangxin_dai_coding_assignment13 .
 
 # 2. Run container
-docker run -p 8018:8018 lastname_firstname_coding_assignment13
+docker run -p 8018:8018 guangxin_dai_coding_assignment13
 
 # 3. Access application
 # Open browser: http://localhost:8018 (or http://127.0.0.1:8018)
@@ -44,7 +44,7 @@ docker run -p 8018:8018 lastname_firstname_coding_assignment13
 ## Project Structure
 
 ```
-lastName_firstName_ui_garden_build_checks/
+guangxin_dai_ui_garden_build_checks/
 ├── src/
 │   ├── components/
 │   │   ├── Button/
@@ -125,8 +125,8 @@ Runs on every push to `main` or `develop` branches:
 
 ### Container Specifications
 
-- **Container Name**: `lastname_firstname_coding_assignment13`
-- **Working Directory**: `lastName_firstName_ui_garden_build_checks`
+- **Container Name**: `guangxin_dai_coding_assignment13`
+- **Working Directory**: `guangxin_dai_ui_garden_build_checks`
 - **Port**: 8018
 - **Server**: Nginx (production optimized)
 
@@ -153,8 +153,8 @@ Container includes health check to ensure application is running properly.
 ## Assignment 13 Requirements Checklist
 
 - ✅ **Docker Container**: Runs on localhost:8018
-- ✅ **Container Name**: `lastname_firstname_coding_assignment13`
-- ✅ **Working Directory**: `lastName_firstName_ui_garden_build_checks`
+- ✅ **Container Name**: `guangxin_dai_coding_assignment13`
+- ✅ **Working Directory**: `guangxin_dai_ui_garden_build_checks`
 - ✅ **Pre-commit Checks**: Prettier + ESLint + Tests
 - ✅ **Husky Integration**: Blocks non-compliant code commits
 - ✅ **GitHub Actions**: CI/CD pipeline

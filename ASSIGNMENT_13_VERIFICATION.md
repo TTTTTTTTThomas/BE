@@ -4,8 +4,8 @@
 
 ### 📦 **Docker 容器要求**
 
-- ✅ **容器名称**: `lastname_firstname_coding_assignment13`
-- ✅ **工作目录**: `lastName_firstName_ui_garden_build_checks` (在 Dockerfile 中)
+- ✅ **容器名称**: `guangxin_dai_coding_assignment13`
+- ✅ **工作目录**: `guangxin_dai_ui_garden_build_checks` (在 Dockerfile 中)
 - ✅ **端口配置**: localhost:8018 (127.0.0.1:8018)
 - ✅ **生产构建**: React 应用的生产版本在 Nginx 中运行
 - ✅ **多阶段构建**: 构建阶段 + 生产阶段优化
@@ -34,7 +34,7 @@
 
 ### 📋 **项目结构要求**
 
-- ✅ **包名称**: `lastname-firstname-ui-garden-build-checks`
+- ✅ **包名称**: `guangxin-dai-ui-garden-build-checks`
 - ✅ **README.md**: 详细的运行说明和文档
 - ✅ **Dockerfile**: 完整的容器配置
 - ✅ **组件库**: Button 和 Card 组件带测试
@@ -54,8 +54,8 @@
 
 ```bash
 # Docker 构建和运行命令
-docker build -t lastname_firstname_coding_assignment13 .
-docker run -p 8018:8018 lastname_firstname_coding_assignment13
+docker build -t guangxin_dai_coding_assignment13 .
+docker run -p 8018:8018 guangxin_dai_coding_assignment13
 
 # 访问地址
 http://localhost:8018
@@ -70,8 +70,8 @@ http://127.0.0.1:8018
 2. ✅ **README.md**: 包含详细的运行说明
 3. ✅ **localhost:8018**: 应用运行在正确端口
 4. ✅ **生产构建**: React 应用的生产版本
-5. ✅ **容器名称**: `lastName_firstName_coding_assignment13`
-6. ✅ **工作目录**: `lastName_firstName_ui_garden_build_checks`
+5. ✅ **容器名称**: `guangxin_dai_coding_assignment13`
+6. ✅ **工作目录**: `guangxin_dai_ui_garden_build_checks`
 7. ✅ **预提交检查**: Prettier + ESLint + Tests
 8. ✅ **代码提交阻止**: 检查失败时阻止提交
 9. ✅ **GitHub Actions**: CI/CD 流水线配置

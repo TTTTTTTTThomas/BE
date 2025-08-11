@@ -7,7 +7,7 @@ This React component library project has been successfully completed with all re
 ### 🏗️ Project Structure
 
 ```
-lastname-firstname-ui-garden-build-checks/
+guangxin-dai-ui-garden-build-checks/
 ├── src/
 │   ├── components/
 │   │   ├── Button/
@@ -90,8 +90,8 @@ npm run pre-commit       # Manual pre-commit check
 
 ```bash
 # Build and run the containerized application
-docker build -t lastname_firstname_coding_assignment13 .
-docker run -p 8018:8018 lastname_firstname_coding_assignment13
+docker build -t guangxin_dai_coding_assignment13 .
+docker run -p 8018:8018 guangxin_dai_coding_assignment13
 
 # Access the application at http://localhost:8018
 ```
@@ -131,9 +131,9 @@ Every commit automatically runs:
 - ✅ Pre-commit hooks with Husky and lint-staged
 - ✅ GitHub Actions CI/CD pipeline
 - ✅ Docker containerization with nginx serving on port 8018
-- ✅ Proper naming conventions (lastname_firstname_coding_assignment13)
-- ✅ Working directory: lastname_firstname_ui_garden_build_checks
-- ✅ Package name: lastname-firstname-ui-garden-build-checks
+- ✅ Proper naming conventions (guangxin_dai_coding_assignment13)
+- ✅ Working directory: guangxin_dai_ui_garden_build_checks
+- ✅ Package name: guangxin-dai-ui-garden-build-checks
 
 ### 🚀 Ready for Production
 

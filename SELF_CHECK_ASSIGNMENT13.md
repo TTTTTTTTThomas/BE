@@ -6,8 +6,8 @@
 
 #### 1. Docker 配置 ✅
 
-- [ ] 容器名称: `lastname_firstname_coding_assignment13`
-- [ ] 工作目录: `lastName_firstName_ui_garden_build_checks`
+- [ ] 容器名称: `guangxin_dai_coding_assignment13`
+- [ ] 工作目录: `guangxin_dai_ui_garden_build_checks`
 - [ ] 运行端口: localhost:8018 (127.0.0.1:8018)
 - [ ] 包含 Dockerfile 文件
 - [ ] 包含 nginx.conf 配置
@@ -38,7 +38,7 @@
 
 - [ ] README.md 包含详细说明
 - [ ] 组件库结构正确
-- [ ] 包名: lastname-firstname-ui-garden-build-checks
+- [ ] 包名: guangxin-dai-ui-garden-build-checks
 
 ## 🧪 **功能测试清单**
 
@@ -75,10 +75,10 @@ git commit -m "test commit"
 
 ```bash
 # 1. 构建 Docker 镜像
-docker build -t lastname_firstname_coding_assignment13 .
+docker build -t guangxin_dai_coding_assignment13 .
 
 # 2. 运行容器
-docker run -p 8018:8018 lastname_firstname_coding_assignment13
+docker run -p 8018:8018 guangxin_dai_coding_assignment13
 
 # 3. 访问应用
 # 浏览器打开: http://localhost:8018

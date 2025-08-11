@@ -7,6 +7,7 @@ This is a complete React TypeScript component library project with integrated co
 ## Quick Start
 
 ### Prerequisites
+
 - Node.js 18.x or 20.x
 - Docker Desktop
 - Git
@@ -31,10 +32,10 @@ Development server will start at `http://localhost:8018`
 
 ```bash
 # 1. Build Docker image
-docker build -t lastname_firstname_coding_assignment13 .
+docker build -t guangxin_dai_coding_assignment13 .
 
 # 2. Run container
-docker run -p 8018:8018 lastname_firstname_coding_assignment13
+docker run -p 8018:8018 guangxin_dai_coding_assignment13
 
 # 3. Access application
 # Open browser: http://localhost:8018 (or http://127.0.0.1:8018)
@@ -43,7 +44,7 @@ docker run -p 8018:8018 lastname_firstname_coding_assignment13
 ## Project Structure
 
 ```
-lastName_firstName_ui_garden_build_checks/
+guangxin_dai_ui_garden_build_checks/
 ├── src/
 │   ├── components/
 │   │   ├── Button/
@@ -88,7 +89,9 @@ npm run pre-commit       # Manually run pre-commit checks
 ## Code Quality Assurance
 
 ### Pre-commit Hooks (Husky)
+
 Automatically runs on each Git commit:
+
 1. **ESLint** - Code quality checks with auto-fix
 2. **Prettier** - Code formatting
 3. **Vitest** - Run all tests
@@ -96,7 +99,9 @@ Automatically runs on each Git commit:
 If any check fails, the commit will be blocked.
 
 ### CI/CD Pipeline (GitHub Actions)
+
 Runs on every push to `main` or `develop` branches:
+
 1. **Multi-environment testing** - Node.js 18.x and 20.x
 2. **Code quality checks** - Prettier, ESLint, tests
 3. **Build verification** - Ensures application builds successfully
@@ -105,11 +110,13 @@ Runs on every push to `main` or `develop` branches:
 ## Component Library
 
 ### Button Component
+
 - **Variants**: primary, secondary, danger
 - **Sizes**: small, medium, large
 - **Features**: Click handling, disabled state, custom styling
 
 ### Card Component
+
 - **Features**: Flexible container component
 - **Options**: Optional title, custom styling
 - **Variants**: default, elevated
@@ -117,16 +124,19 @@ Runs on every push to `main` or `develop` branches:
 ## Docker Configuration
 
 ### Container Specifications
-- **Container Name**: `lastname_firstname_coding_assignment13`
-- **Working Directory**: `lastName_firstName_ui_garden_build_checks`
+
+- **Container Name**: `guangxin_dai_coding_assignment13`
+- **Working Directory**: `guangxin_dai_ui_garden_build_checks`
 - **Port**: 8018
 - **Server**: Nginx (production optimized)
 
 ### Multi-stage Build
+
 1. **Build Stage**: Install dependencies, run quality checks, build application
 2. **Production Stage**: Use Nginx to serve static files
 
 ### Health Check
+
 Container includes health check to ensure application is running properly.
 
 ## Technology Stack
@@ -143,8 +153,8 @@ Container includes health check to ensure application is running properly.
 ## Assignment 13 Requirements Checklist
 
 - ✅ **Docker Container**: Runs on localhost:8018
-- ✅ **Container Name**: `lastname_firstname_coding_assignment13`
-- ✅ **Working Directory**: `lastName_firstName_ui_garden_build_checks`
+- ✅ **Container Name**: `guangxin_dai_coding_assignment13`
+- ✅ **Working Directory**: `guangxin_dai_ui_garden_build_checks`
 - ✅ **Pre-commit Checks**: Prettier + ESLint + Tests
 - ✅ **Husky Integration**: Blocks non-compliant code commits
 - ✅ **GitHub Actions**: CI/CD pipeline
@@ -154,6 +164,7 @@ Container includes health check to ensure application is running properly.
 ## Troubleshooting
 
 ### Port in Use
+
 ```bash
 # Windows
 netstat -ano | findstr :8018
@@ -164,6 +175,7 @@ npm run dev
 ```
 
 ### Pre-commit Hook Failures
+
 ```bash
 # Manually run checks
 npm run lint
@@ -176,7 +188,9 @@ git commit -m "your message"
 ```
 
 ### Docker Build Failures
+
 Ensure all code quality checks pass:
+
 ```bash
 npm run prettier
 npm run lint
@@ -195,6 +209,7 @@ npm run build
 ---
 
 ## Author Information
+
 - **Course**: Assignment 13
 - **Requirements**: UI Component Library with Code Quality Checks
 - **Technology**: React + TypeScript + Docker + CI/CD
