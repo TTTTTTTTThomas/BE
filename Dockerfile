@@ -27,7 +27,7 @@ RUN npm run build-storybook
 FROM nginx:alpine
 
 # Copy built files to nginx
-COPY --from=builder /guangxin_dai_ui_garden_build_checks/storybook-static /usr/share/nginx/html
+COPY --from=builder /guangxin_dai_ui_garden_build_checks/dist /usr/share/nginx/html
 
 # Copy nginx configuration
 COPY nginx.conf /etc/nginx/conf.d/default.conf
